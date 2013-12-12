@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-    <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-    
-    <remove-project name="CyanogenMod/android_frameworks_native" />
-    <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
-    <remove-project name="CyanogenMod/android_system_vold" />
+  <!-- remove CM repos -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Torch" />
+  <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
 
-    <!-- Mustaavalkosta -->
-    <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
-    <project path="packages/providers/MediaProvider" name="Mustaavalkosta/android_packages_providers_MediaProvider" remote="github" revision="cm-11.0" />
-    <project path="system/vold" name="Mustaavalkosta/android_system_vold" remote="github" revision="cm-11.0" />
+  <!-- Mustaavalkosta -->
+  <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+  <project path="packages/apps/Torch" name="Mustaavalkosta/android_packages_apps_Torch" revision="cm-11.0" />
+  <project path="packages/providers/MediaProvider" name="Mustaavalkosta/android_packages_providers_MediaProvider" revision="cm-11.0" />
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="cm-11.0" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-11.0" />
 
-    <!-- TeamPrimo -->
-    <project path="kernel/htc/primoc" name="TeamPrimo/android_kernel_htc_primoc" remote="github" revision="kitkat" />
-    <project path="device/htc/primoc" name="TeamPrimo/android_device_htc_primoc" remote="github" revision="cm-11" />
-    <project path="device/htc/msm7x30-common" name="TeamPrimo/android_device_htc_msm7x30-common" remote="github" revision="kitkat" />
-    <project path="vendor/htc/primoc" name="TeamPrimo/android_vendor_htc_primoc" remote="github" revision="cm-11" />
-    <project path="hardware/qcom/display-legacy" name="TeamPrimo/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
-    <project path="frameworks/native" name="TeamPrimo/android_frameworks_native" remote="github" revision="cm-11.0" />
+  <!-- TeamPrimo -->
+  <project path="device/htc/msm7x30-common" name="TeamPrimo/android_device_htc_msm7x30-common" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy" name="TeamPrimo/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+  <project path="device/htc/primoc" name="TeamPrimo/android_device_htc_primoc" revision="cm-11" />
+  <project path="kernel/htc/primoc" name="TeamPrimo/android_kernel_htc_primoc" revision="kitkat" />
+  <project path="vendor/htc/primoc" name="TeamPrimo/android_vendor_htc_primoc" revision="cm-11" />
 
-    <!-- Evervolv -->
-    <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
-    <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
+  <!-- Evervolv -->
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_media-legacy" revision="kitkat" />
+  <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_audio-caf" revision="kitkat" />
 
 </manifest>
