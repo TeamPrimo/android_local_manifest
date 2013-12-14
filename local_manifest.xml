@@ -23,7 +23,7 @@
   <project path="vendor/htc/primoc" name="TeamPrimo/android_vendor_htc_primoc" revision="cm-11" />
 
   <!-- Evervolv -->
-  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_media-legacy" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" revision="kitkat" />
   <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" revision="kitkat" />
 
 </manifest>
