@@ -24,6 +24,6 @@
 
   <!-- Evervolv -->
   <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_media-legacy" revision="kitkat" />
-  <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_audio-caf" revision="kitkat" />
+  <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" revision="kitkat" />
 
 </manifest>
